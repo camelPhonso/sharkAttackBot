@@ -1,17 +1,27 @@
 {
   "name": "botreview",
   "version": "1.0.0",
-  "description": "",
+  "description": "Review of a discord bot with openai api",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alphonso",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.3.1",
     "openai": "^4.24.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camelPhonso/sharkAttackBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camelPhonso/sharkAttackBot/issues"
+  },
+  "homepage": "https://github.com/camelPhonso/sharkAttackBot#readme"
 }
