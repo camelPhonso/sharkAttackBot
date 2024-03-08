@@ -13,7 +13,7 @@ client.login(process.env.DISCORD_TOKEN)
 client.on("ready", async () => {
   assistant_id = await createAssistant()
   thread_id = await createThread()
-  console.log("ATTACK!")
+  console.log("ATTACK!!!")
 })
 
 client.on("messageCreate", async userInput => {
